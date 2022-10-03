@@ -7,13 +7,12 @@ body,
     box-sizing: border-box;
 }
 
-.parent {
-    font-size: 5rem;
-    display: flex;
-    width: 80vw;
+body {
+    background-color: goldenrod;
 }
 
-.child {
-    margin-top: 1rem;
-    border: 2px solid red;
+.header-title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
 }
