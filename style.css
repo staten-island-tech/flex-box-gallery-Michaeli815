@@ -16,3 +16,12 @@ body {
     justify-content: center;
     font-size: 3rem;
 }
+
+.item {
+    font-size: 3rem;
+}
+
+.about-img {
+    width: 30vw;
+    height: 30vw;
+}
