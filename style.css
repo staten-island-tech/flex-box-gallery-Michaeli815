@@ -15,13 +15,24 @@ body {
     display: flex;
     justify-content: center;
     font-size: 3rem;
+    
 }
 
 .item {
     font-size: 3rem;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
 }
 
 .about-img {
-    width: 30vw;
-    height: 30vw;
+    width: 50%;
+    height: 50%;
+}
+
+.about-col{
+width: 30%;
 }
