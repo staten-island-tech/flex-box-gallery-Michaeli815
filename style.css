@@ -17,11 +17,12 @@ body {
     justify-content: center;
     font-size: 7rem;
     margin: 1% auto;
-    
+
 }
-img{
+
+img {
     box-sizing: border-box;
-    width: 100%;
+    width: 85%;
     padding: 5px;
 }
 
@@ -37,6 +38,7 @@ img{
     padding: 5px;
     margin: 5% top;
     box-shadow: 10px 5px 15px rgb(237, 189, 247);
+    border-radius: 5rem;
 }
 
 .about-row {
@@ -51,20 +53,21 @@ img{
     background-color: rgb(183, 140, 224);
 }
 
-.about-col{
-width: 27%;
-justify-content: space-evenly;
-height: 100%;
-display: flex;
-flex-direction: column;
-align-items: start;
-justify-content: space-evenly;
+.about-col {
+    width: 27%;
+    justify-content: space-evenly;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
 }
 
-.about{
+.about {
     background-color: aquamarine;
 }
-.text{
+
+.text {
     font-size: 2rem;
     justify-content: center;
 }
