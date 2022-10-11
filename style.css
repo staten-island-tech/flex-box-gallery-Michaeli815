@@ -6,10 +6,11 @@ body,
     font-size: 62.5%;
     box-sizing: border-box;
     font-family: 'Peralta', cursive;
+
 }
 
 body {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(30, 101, 253);
 }
 
 .header-title {
@@ -28,7 +29,7 @@ img {
 
 .item {
     font-size: 3rem;
-    background-color: gold;
+    background-color: rgb(143, 255, 164);
     border: solid rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@ img {
     height: 30%;
     padding: 5px;
     margin: 5% top;
-    box-shadow: 10px 5px 15px rgb(238, 233, 220);
+    box-shadow: 10px 5px 15px rgb(0, 0, 0);
     border-radius: 3rem;
 }
 
@@ -48,9 +49,10 @@ img {
     height: 100%;
     width: 85vw;
     margin: 0 auto;
+    padding-top: 2%;
     justify-content: space-between;
     justify-content: space-evenly;
-
+    background-color: rgb(30, 101, 253);
 }
 
 .about-col {
@@ -61,17 +63,29 @@ img {
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
-    margin: 3% auto;
+    margin: 3% top;
 
 }
 
-.about {}
+.about {
+    background-color: rgb(30, 101, 253);
+}
 
 .text {
     font-size: 2rem;
     justify-content: center;
 }
 
+.item:hover {
+    transform: scale(1.2);
+    outline: .5rem solid rgb(247, 0, 0);
+}
 
-rgb(245, 243, 115);
-rgb(237, 189, 247) background-color: rgb(183, 140, 224);
+img:hover {
+    transform: scale(1)
+}
+
+.about-row:hover .item:not(:hover) {
+    transform: scale(0.9);
+    opacity: 0.7;
+}
