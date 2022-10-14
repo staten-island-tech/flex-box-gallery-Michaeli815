@@ -18,10 +18,15 @@ body {
     justify-content: center;
     font-size: 6rem;
     margin: 3% auto;
-    border: solid black;
+    border: 1rem solid rgb(151, 2, 2);
     width: 65%;
     text-align: center;
     border-radius: 3rem;
+    box-sizing: border-box;
+    background-color: rgb(255, 242, 0);
+    box-shadow: 10px 10px 0px black;
+    padding: 2rem;
+
 }
 
 img {
@@ -33,7 +38,7 @@ img {
 .item {
     font-size: 3rem;
     background-color: rgb(255, 223, 39);
-    border: solid rgb(255, 255, 255);
+    border: solid rgb(255, 187, 0);
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -41,8 +46,9 @@ img {
     height: 30%;
     padding: 5px;
     margin: 5% top;
-    box-shadow: 10px 5px 15px rgb(0, 0, 0);
+    box-shadow: 10px 7px 0px rgb(183, 255, 0);
     border-radius: 3rem;
+    transform: scale(0.9);
 }
 
 .about-row {
@@ -77,12 +83,13 @@ img {
 .text {
     font-size: 2rem;
     justify-content: center;
-
+    justify-content: space-evenly;
 }
 
 .item:hover {
     transform: scale(1.2);
-    outline: .5rem solid rgb(6, 203, 238);
+    outline: .7rem solid rgb(6, 203, 238);
+    box-shadow: 13px 13px 10px rgb(255, 255, 255);
 }
 
 img:hover {
@@ -90,6 +97,44 @@ img:hover {
 }
 
 .about-row:hover .item:not(:hover) {
-    transform: scale(0.9);
+    transform: scale(0.8);
     opacity: 0.7;
+    box-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+
+.header-title {
+    animation: header-title 4s infinite;
+}
+
+@keyframes .header-title {
+    0% {
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+
+    25% {
+        left: 50%;
+        bottom: 10%;
+        background-color: blue;
+    }
+
+    50% {
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+
+    75% {
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+
+    100% {
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+
 }
