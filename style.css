@@ -123,3 +123,23 @@ img:hover {
     }
 
 }
+
+.body {
+    animation: hand 1.5s infinite;
+
+}
+
+@keyframes hand {
+    0% {
+        background-color: aliceblue;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: aqua;
+    }
+
+}
