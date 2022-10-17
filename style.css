@@ -89,7 +89,8 @@ img {
 .item:hover {
     transform: scale(1.2);
     outline: .7rem solid rgb(6, 203, 238);
-    box-shadow: 13px 13px 10px rgb(255, 255, 255);
+    box-shadow: 13px 13px 20px rgb(0, 34, 255);
+    transition: all 0.3s;
 }
 
 img:hover {
@@ -99,42 +100,26 @@ img:hover {
 .about-row:hover .item:not(:hover) {
     transform: scale(0.8);
     opacity: 0.7;
-    box-shadow: 0px 0px 0px rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px rgb(255, 0, 0);
+    transition: all 0.2s;
 }
 
-.header-title {
-    animation: header-title 4s infinite;
+.header {
+    animation: header-title 1.5s infinite;
+
 }
 
-@keyframes .header-title {
+@keyframes header-title {
     0% {
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
-    }
-
-    25% {
-        left: 50%;
-        bottom: 10%;
-        background-color: blue;
+        transform: rotate(1deg);
     }
 
     50% {
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
-    }
-
-    75% {
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
+        transform: rotate(-2deg);
     }
 
     100% {
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
+        transform: rotate(1deg);
     }
 
 }
