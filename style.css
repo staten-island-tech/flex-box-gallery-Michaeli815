@@ -100,7 +100,7 @@ img:hover {
     transform: scale(0.8);
     opacity: 0.7;
     box-shadow: 0px 0px 0px rgb(255, 0, 0);
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 
 .header {
@@ -151,4 +151,22 @@ img:hover {
 
 }
 
-@MEDIA
+@media all and (max-width: 500px) {
+
+    .about-row {
+        justify-content: normal;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .about-col {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 4.5rem;
+        margin: 7% auto;
+
+    }
+}
